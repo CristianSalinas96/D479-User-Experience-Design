@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    font-size: 20px;
+}
+
+header {
+    background-color: #5cb3ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+header a {
+    display: flex; 
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    height: 100%;
+}
+
+header img.IslandIcon {
+    width: 120px;
+    height: auto;
+    position: relative;
+}
+
+nav {
+    background-color: #ffaa00;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content section {
+    background-color: #e0e2be;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 100%;
+    text-align: justify;
+}
+
+.section-flex {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.section-flex img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section-flex p {
+    flex: 1;
+    text-align: justify;
+}
+
+
+.content h2 {
+    color: #008f4c;
+    text-align: center;
+}
+
+.content ul {
+    padding-left: 20px;
+}
+
+.content li {
+    margin-bottom: 5px;
+}
+
+img.islandimages {
+    float: left;
+    margin-right: 15px;
+    max-width: 40%;
+    border-radius: 8px;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #5cb3ff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    clear: both;
+}
